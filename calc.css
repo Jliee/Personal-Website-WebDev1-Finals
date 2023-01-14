@@ -1,0 +1,115 @@
+*{
+    /* background-color: #dadada; */
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 100px;
+    padding: 20px
+}
+
+.calculator{
+    margin: auto;
+    height: auto;
+    margin-top: 5%;
+    border-radius: 40px;
+    border: 1px solid rgb(84,76,74);
+
+    box-shadow: 0px 20px 20px grey;
+}
+
+.head{
+    background-color: rgb(84,76,74);
+    padding: 3%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    /* border: 2px solid magenta; */
+}
+
+.window_icons img{
+    padding-left: 7px;
+    height: 100%;
+    width: 7%;
+    background-color: rgb(84,76,74);
+}
+
+.btn_buttom_left{
+    border-bottom-left-radius: 40px;
+    background-color: rgb(127,121,119);
+    border: 1px solid rgb(93,85,83); 
+}
+
+.btn_buttom_right{
+    border-bottom-right-radius: 40px;
+    background-color: rgb(255,159,42);
+    border: 1px solid rgb(93,85,83); 
+}
+
+.output{
+    padding: 5%;
+    height: 25%;
+    text-align: right;
+    background-color: rgb(84,76,74);
+
+    /* border: 2px solid red; */
+}
+
+#result{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 6.5vw;
+    color: white;
+
+}
+
+button{
+    box-shadow: none;
+    width: 25%;
+    height: 14%;
+    font-size: 3vw;
+    color: white;
+}
+
+.keypad{
+display: grid;
+
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+
+}
+
+.darkg{
+    background-color: rgb(101,92,94);
+    border: 1px solid rgb(93,85,83);
+}
+
+.yellow{
+    background-color: rgb(255,159,42);
+    border: 1px solid rgb(93,85,83);
+}
+
+.grey{
+    background-color: rgb(127,121,119);
+    border: 1px solid rgb(93,85,83); 
+}
+
+.keypad button{
+    width: 100%;
+    height: 120px;
+    transition-duration: 0.3s;
+}
+
+.keypad button:hover{
+    background-color: white;
+    color: grey;
+}
+
+.keypad button:active{
+    background-color: white;
+    transform: translateY(4px);
+}

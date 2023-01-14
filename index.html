@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jlie</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calc.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Homemade+Apple&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/5fb54b3625.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="face1">
+        <div class="upper1">
+
+            <div class="name">
+                <p>Julie 🌷</p>
+                <p class="lname">Oyong</p>
+            </div>
+
+            <div class="title"><p>F A N C I F U L<br>B U O Y A N T<br>S C H O L A R</p></div>
+            
+        </div>
+        <div class="lower1">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                    <img src="https://media.discordapp.net/attachments/947686500378746930/1063470455446585354/IMG_20221110_153935.jpg?width=1410&height=793">
+                    <div class="text">La Verdad Christian College</div>
+                  </div>
+                
+                <div class="mySlides">
+                  <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063470904073531542/BSIS2_unif.jpg">
+                  <div class="text">BSIS 2 People</div>
+                </div>
+              
+                <div class="mySlides">
+                  <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063470964924485732/IntramsWithBSIS2.jpg">
+                  <div class="text">Intramurals 2022</div>
+                </div>
+
+                <div class="mySlides">
+                <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063470885706666065/BSIS2_Officers.jpg">
+                <div class="text">BSIS 2 Officers since 1st Year</div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063470845344895007/AIM.jpeg">
+                    <div class="text">Association of ICT Majors</div>
+                    </div>
+
+                <div class="mySlides">
+                    <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063783685851201536/IMG_2622.jpeg">
+                    <div class="text">After Interview with the Head Registrar & College Head</div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063470853490233364/Besties.jpg">
+                    <div class="text">My Besties and Sheesters</div>
+                </div>
+                        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <div class = "carousel-buttons" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+              </div>
+    
+        </div>
+    </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length} ;
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].classList.add("active");
+            }
+        </script>
+
+    <div class="face2">
+
+        <div class="about-text-container">
+            <h1>About Me</h1>
+            <p>I am currently an undergraduate scholar of the La Verdad Christian College Institution, undertaking on the program BS in Information Systems. <br><br> I aspire to part of the data science field and to be an instructor.</p>
+        </div>
+
+        <div class="about-image">
+            <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063472416606662676/Julie.jpg" alt="Julie photo">
+        </div>
+    </div>
+
+    <div class="face3">
+
+        <div class="left-f3">
+            <p>" Don't be afraid to make <br> <span>mistakes,</span> <br> it's all part <br> of the <br> <span>learning</span> <br> progress. "</p>
+        </div>
+
+        <div class="right-f3">
+            <h1>FAVORITE PASTIME</h1>
+
+            <p>Tuning to these fine songs on my spotify playlist <br> accompanied with the chikas from <br> my sheeshters a.k.a. besties.</p>
+
+            <iframe class="b-spotify" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Bo9f21B56Yfjr206d9kWd?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+        </div>
+
+    </div>
+
+    <div class="face3-5">
+        <h1>I AM CURRENTLY LEARNING...</h1>
+        <img src="https://media.discordapp.net/attachments/947686500378746930/1063640968420659231/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb-2280735836-1.png" alt="">
+
+    </div>
+
+    <div class="face4">
+
+        <div class="text-container">
+            <h3>One of my works...</h3>
+
+            <h1>Mac Calculator</h1>
+
+            <p>Recreated Mac's built-in calculator, <br> this is interactive.</p>
+
+        </div>
+        <div class="calc-container">
+            <div class="calculator">
+                
+                <div class="head">
+                    <div class="window_icons">
+                        <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063633690023956553/red_circle.png" alt="">
+                        <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063633794386624532/yellow_circle.png" alt="">
+                        <img src="https://cdn.discordapp.com/attachments/947686500378746930/1063633806726271096/green_circle.png" alt="">
+                    </div>
+                </div>
+                <div class="output">
+                    <pre id="result">0</pre>
+                </div>
+                <div class="keypad">
+                    <button class="darkg" onclick="clearall()">C</button>
+                    <button class="darkg" onclick="clear_entry()">CE</button>
+                    <button class="darkg" onclick="percent()">%</button>
+                    <button class="yellow" onclick="operator_key(this)">÷</button>
+            
+                    <button class="grey" onclick="num_key(this)">7</button>
+                    <button class="grey" onclick="num_key(this)">8</button>
+                    <button class="grey" onclick="num_key(this)">9</button>
+                    <button class="yellow" onclick="operator_key(this)">×</button>
+            
+                    <button class="grey" onclick="num_key(this)">4</button>
+                    <button class="grey" onclick="num_key(this)">5</button>
+                    <button class="grey" onclick="num_key(this)">6</button>
+                    <button class="yellow"onclick="operator_key(this)">-</button>
+            
+                    <button class="grey" onclick="num_key(this)">1</button>
+                    <button class="grey" onclick="num_key(this)">2</button>
+                    <button class="grey" onclick="num_key(this)">3</button>
+                    <button class="yellow" onclick="operator_key(this)">+</button>
+            
+                    <button class='button btn_buttom_left' onclick="negate()">+/-</button>
+                    <button class="grey" onclick="num_key(this)">0</button>
+                    <button class="grey" onclick="decimal()">.</button>
+                    <button class='button btn_buttom_right' onclick="calculate()">=</button>
+                </div>
+
+                <script src="calc_function.js"></script>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="face5">
+
+        <div class="f5-col1">
+            <p> MY SOCIALS</p>
+        </div>
+        <div class="f5-col2">
+            <div id="icons">
+                <a href="https://www.facebook.com/julierose.oyong/" target="_blank"><img src="sub/1.svg" alt="fb icon"></a>
+                <a href="https://gitlab.com/julieroseoyong" target="_blank"><img src="sub/2.svg" alt="gitlab icon"></a>
+                <a href="https://github.com/Jliee?tab=repositories" target="_blank"><img src="sub/3.svg" alt="github icon"></a>
+                <a href="https://www.instagram.com/jlie.here/" target="_blank"><img src="sub/4.svg" alt="ig icon"></a>
+                <a href="https://twitter.com/Julinglingg" target="_blank"><img src="sub/5.svg" alt="twt icon"></a>
+            </div>
+    
+            
+                <div class="email">
+                    <p>WORK EMAIL: <br> <a href="mailto:oyong.julie@gmail.com" target="_blank">oyong.julie@gmail.com</a></p>
+                    <p><br> SCHOOL EMAIL: <br> <a href="mailto:julieroseoyong@student.laverdad.edu.ph" target="_blank">julieroseoyong@student.laverdad.edu.ph</a>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
